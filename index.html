@@ -3,105 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admission Form</title>
+    <title>Happy New Year, Dad!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        .form-container {
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .form-container h2 {
             text-align: center;
-            margin-bottom: 20px;
+            background-color: #f0f8ff;
+            color: #333;
+            margin: 0;
+            padding: 0;
         }
-        .form-group {
-            margin-bottom: 15px;
+        .container {
+            padding: 20px;
         }
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
+        h1 {
+            color: #2e8b57;
         }
-        .form-group input, .form-group select, .form-group textarea {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+        p {
+            font-size: 18px;
+            line-height: 1.6;
         }
-        .form-group textarea {
-            resize: vertical;
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px auto;
+            border: 2px solid #2e8b57;
+            border-radius: 10px;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        .form-group button {
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            font-size: 16px;
-        }
-        .form-group button:hover {
-            background-color: #0056b3;
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #666;
         }
     </style>
 </head>
 <body>
-
-<div class="form-container">
-    <h2>Admission Form</h2>
-    <form action="submit_form.php" method="post">
-        <div class="form-group">
-            <label for="fullName">Full Name:</label>
-            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+    <div class="container">
+        <h1>Happy New Year, Dad!</h1>
+        <div class="card">
+            <p>
+                Dear Dad,<br><br>
+                As we step into a brand-new year, I want to thank you for being my guide, my hero, and my constant support. 
+                Your love and wisdom mean the world to me, and I am so grateful for all that you do.<br><br>
+                Here's to another year filled with laughter, love, and unforgettable memories. Wishing you happiness, 
+                health, and all the success you deserve in the year ahead.<br><br>
+                With love,<br>
+                Sanskar
+            </p>
         </div>
-        <div class="form-group">
-            <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob" required>
-        </div>
-        <div class="form-group">
-            <label for="gender">Gender:</label>
-            <select id="gender" name="gender" required>
-                <option value="">Select</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Other">Other</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        </div>
-        <div class="form-group">
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-        </div>
-        <div class="form-group">
-            <label for="address">Address:</label>
-            <textarea id="address" name="address" rows="4" placeholder="Enter your address" required></textarea>
-        </div>
-        <div class="form-group">
-            <label for="course">Course Applied For:</label>
-            <select id="course" name="course" required>
-                <option value="">Select Course</option>
-                <option value="Science">Science</option>
-                <option value="Commerce">Commerce</option>
-                <option value="Arts">Arts</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <button type="submit">Submit Application</button>
-        </div>
-    </form>
-</div>
-
+        <footer>
+            &copy; 2025 | A heartfelt message for the best dad
+        </footer>
+    </div>
 </body>
 </html>
